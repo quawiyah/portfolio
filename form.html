@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <script>
+            function popUp() { 
+                alert ("You have succesfully filled your form");
+            }
+        </script>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>NAME</th>
+                <th>MATRIC NUMBER</th>
+            </tr>
+            <tr>
+                <td>Abdulrask Faiza</td>
+                <td>FUO/22/0075</td>
+            </tr>
+            <tr>
+                <td>Dairo Quawiyah</td>
+                <td>FUO/22/0295</td>
+            </tr>
+            <tr>
+                <td>Oladosu Rophiat</td>
+                <td>FUO/22/0274</td>
+            </tr>
+            <tr>
+                <td>Adefenwa Maryam</td>
+                <td>FUO/22/149</td>
+            </tr>
+        </table><br><br>
+        <form>
+            <label for="surname">SURNAME:</label>
+            <input type="text" id="surname" name="surname" placeholder="Input Your Name" required><br><br>
+            <label for="firstname">FIRSTNAME:</label>
+            <input type="text" id="firstname" name="firstname"><br><br>
+            <label for="middlename">MIDDLENAME:</label>
+            <input type="text" id="middlename" name="middlename"><br><br>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="phonenumber">PHONE NUMBER:</label>
+            <input type="text" id="phonenumber" name="phonenumber"><br><br>
+            <label for="address">ADDRESS:</label>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="nationality">NATIONALITY:</label>
+            <input type="text" id="nationality" name="nationality"><br><br>
+            <label for="gender">GENDER:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender"><br><br>
+            <label for="dob">D.O.B:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+            <label for="state">State Of Origin:</label>
+            <select id="state" name="state">
+                <option value="select" selected>Select</option>
+                <option value="oyo">Oyo State</option>
+                <option value="lagos">Lagos State</option>
+                <option value="osun">Osun State</option>
+                <option value="ogun">Ogun State</option>
+                <option value="other">Others</option>
+            </select><br><br>
+            <label for="uoc">University Of Choice:</label><br>
+            <input type="checkbox" id="ui">
+            <label for="ui">University Of Ibadan</label><br><br>
+            <input type="checkbox" id="unilorin">
+            <label for="unilorin">University Of Ilorin</label><br><br>
+            <input type="checkbox" id="uniabuja">
+            <label for="uniabuja">University Of Abuja</label><br><br>
+            <input type="checkbox" id="others">
+            <label for="others">Others</label><br><br>
+            <button onclick="popUp()">Submit</button>
+            <br><br>
+            
+        </form>
+
+
+        <table border="0" width="100%" cellspacing="0" cellpadding="16">
+            <tr>
+                <th width="25%" bgcolor="grey">California</th>
+                <th width="25%" bgcolor="grey">The Rockies</th>
+                <th width="25%" bgcolor="grey">The Midwest</th>
+                <th width="25%" bgcolor="grey">Home</th>
+            </tr>
+        </table>
+        <table border="0" width="100%" cellspacing="0" cellpadding="16">    
+            <tr>
+                <td width="25%" valign="top">
+                    <p>The Golden Gate Bridge</p>
+                    <p>Highway 101</p>
+                    <p>Big Sur</p>
+                </td>
+                <td width="75%" valign="top">
+                    <h1>Places To Visit In California</h1>
+                    <table width="200px" cellpadding="8" align="right">
+                        <tr>
+                            <td bgcolor="black">
+                                <center>
+                                    <b><font face="arial" size="-1" color="white">A Whole Lot Of Paint</font></b>
+                                </center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="grey">
+                                The Golden Gate Bridge is covered with enough paint to coat four battleships
+                            </td>
+                        </tr>
+                    </table>
+                    <p>When in california, be sure to visit The golden gate bridge, Highway 101, Big sur</p>
+                </td>
+            </tr>
+        </table><br>
+
+        Fill out the following form to get more information about travwlling West:
+        <p>
+            <form>
+                <table width="50%" cellpadding="4" border="0">
+                    <tr>
+                        <td align="right" width="45%">Name:</td>
+                        <td width="5%">
+                            <input type="text" name="name" size="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Address:</td>
+                        <td>
+                            <input type="text" name="address" size="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">E-mail:</td>
+                        <td>
+                            <input type="text" name="e-mail" size="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Send me info">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </p> 
+
+        <form>
+            <table width="50%" cellpadding="4">
+                <tr>
+                    <td width="45%" align="right">Name:</td>
+                    <td width="5%">
+                        <input type="text" name="name" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">My favorite region to visit is:</td>
+                    <td>
+                        <select name="select">
+                            <option>California</option>
+                            <option>The Rockies</option>
+                            <option>The Midwest</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">I would prefer to travel by:</td>
+                    <td>
+                        <input type="radio" name="radios" value="train" checked> Train <br>
+                        <input type="radio" name="radios" value="bus"> Bus <br>
+                        <input type="radio" name="radios" value="boat"> Boat
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
